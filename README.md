@@ -1,2 +1,2 @@
-# KakaoTalk2.0
- KakaoClone2.0
+# Kakao-clone2.0
+ Kakaco Claone Version 2.0
