@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/styles.css" >
     <title>Chat | Kakao Clone</title>
 </head>
-<body>
+<body class="chats-body">
     <div class="status-bar">
         <div class="status-bar__column">
             <span class="status-bar__clock">13:53</span>
@@ -36,7 +36,7 @@
             </span>
         </div>
     </header>
-    <main class="chat">
+    <main class="chat-screen">
         <ul class="chat__messages">
             <span class="chat__timestamp">Friday,July 11,2020</span>
             <li class="incoming-message message">
@@ -47,13 +47,14 @@
                         I like White COCONUT!
                     </div>
                 </div>
-                <span class="message__timestamp"></span>
             </li>
-            <li class="incoming-message message">
+            <li class="sent-message message">
                 <span class="message__timestamp"></span>
                 <div class="message__content">
                     <div class="message__bubble">
+
                         I like Brown COCONUT!
+                    </div>
                     </div>
                 </div>
             </li>
@@ -64,8 +65,10 @@
             <i class="far fa-plus-square"></i>
         </div>
         <div class="chat__write-column">
-            <input type="text" placeholder="Send messages" 
-            class="chat__wirte-input"
+            <input 
+            type="text" 
+            placeholder="Send messages" 
+            class="chat__write-input"
             />
         </div>
         <div class="chat__write-column">
